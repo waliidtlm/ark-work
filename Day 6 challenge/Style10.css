@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+       
+}
+.bars{
+    padding-top: 15px;
+    margin-left: 30px;
+}
+.logo{
+    margin-right: 350px;
+    padding-left: 0;
+}
+input{
+    border:solid 2px;
+    border-radius: 25px;
+    width: 700px;
+    border-color: rgba(128, 128, 128, 0.295);
+    font-size: 16px;
+    margin-right: 300px;
+}
+#box2{
+    width: 250px;
+    margin-right: 50px;
+}
+#mainvideo{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    align-items: baseline;
+      
+}
+h2{
+    margin-left: 25px;
+}
+p{
+    margin-left: 25px;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    right: 210px;
+    top: 85px;
+    align-items: baseline;
+
+}
+#upnext{
+    font-size: 22px;
+    font-weight: bold;
+}
+#videos{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+#channel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#subnumber{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius:25px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: black;
+    color: #F9F9F9;
+    border:none;
+}
