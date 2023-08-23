@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journy | Travel The World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="travel.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="Logo.png" alt="logo" height="30px" />
+        </div>
+
+        <nav class="nav-bar">
+          <ul class="ul-bar mobile-menu">
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <img src="facebook.png" alt="facebook" />
+          <img src="instagram.png" alt="instagram" />
+          <img src="twitter.png" alt="twitter" />
+        </div>
+        <img src="Menu.png" alt="Menu" height="40px" class="menu-hamburger" />
+      </div>
+
+      <p id="title-paragraph">
+        Beautiful sunrise need cloudy skies
+        <button id="button">Show Me&rarr;</button>
+      </p>
+    </section>
+
+    <main id="main1">
+      <div id="photographer"></div>
+      <h1>
+        Click Moment, that you love
+        <button class="button">About Me</button>
+      </h1>
+      <p class="quotes">
+        We take photos as a return ticket to a moment otherwise gone
+      </p>
+    </main>
+
+    <section id="main2">
+      <h1 id="Gallery">Gallery</h1>
+
+      <div id="box-container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+      </div>
+      <button type="submit" id="gallery-btn"> see Gallery&rarr;</button>
+    </section>
+
+    <section id="blog-section">
+      <h1 id="blog-title">Blog Posts</h1>
+      <div id="container1">
+        <div class="post-container">
+          <img src="post3.jpg"alt="picture" height="300pxx"width="500px"class="pics"/>
+          
+          <p class="post-paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            autem nulla itaque,klfsfjklfdjsfkjddijfsqifjsifodmlkdsmlsdkmsqldk
+            iste, fugiat quae esse omnis quam ad doloremque ullam ab ea. Quam
+            minus officiis fugiat deleniti dolores illo.
+          </p>
+          <h1>sunset</h1>
+          <button class="button1">Read More&rarr;</button>
+        </div>
+
+        <div class="post-container">
+          <img
+            src="pic5.jpg"
+            alt="picture"
+            height="300pxx"
+            width="500px"
+            class="pics"
+          />
+          <p class="post-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            accusamus quam fuga corporis nulla aspernatur minus ab tempore,
+            autem aperiam totam omnis fugiat laudantium quos quis neque harum
+            repellendus deserunt!
+          </p>
+          <h1>Lac</h1>
+          <button class="button1">Read More&rarr;</button>
+        </div>
+
+        <div class="post-container">
+          <img
+            src="pic6.jpg"
+            alt="picture"
+            height="300pxx"
+            width="500px"
+            class="pics"
+          />
+          <p class="post-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            architecto a ab reiciendis impedit itaque ipsum, beatae praesentium,
+            ex rem voluptatibus quia vero corporis. Itaque debitis fugiat
+            necessitatibus perspiciatis veniam!
+          </p>
+          <h1>montagne</h1>
+          <button class="button1">Read More&rarr;</button>
+        </div>
+      </div>
+    </section>
+    <section id="forum-section">
+      <h1 id="Forum-title">Contact Forum</h1>
+
+      <div id="forum-container">
+
+        <div>
+          <input type=" name " placeholder="Full name "class="text-area"
+          /><br /><br>
+          <input type="email" placeholder=" Email " class="text-area" /><br /><br>
+          <input type="phone number"  placeholder=" Phone Number" class="text-area"/>
+        </div>
+
+        <div><br>
+          <textarea id="text-area1"
+            rows="10"
+            cols="100"
+            placeholder="Type your message here..."
+          ></textarea>
+        </div><br>
+
+        <div>
+          <button id="sendButton">Send</button>
+        </div>
+
+      </div>
+      <div id="forum-pic"> </div>
+
+    </section>
+
+  </body>
+
+
+
+
+  <footer>
+    <section id="footer-section">
+    <div>
+    <nav>
+        <ul>
+            <li> Privacy Policy </li>
+            <li> Terms of Use </li>
+        </ul>
+    </nav>
+    <p>&copy; 2023 JOURNY. All rights reserved.</p>
+  </div>
+
+
+
+    <div class="newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <p>Stay up to date with our latest news and updates!</p>
+      <form action="#" class="newsletter-form">
+          <input type="email" name="email" placeholder="Enter your email" id="Email">
+          <button type="submit" id="footer-btn">Subscribe</button>
+      </form>
+  </div>
+</section>
+</footer>
+
+
+
+
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const ulbar = document.querySelector(".ul-bar");
+
+    menuHamburger.addEventListener("click", () => {
+      ulbar.classList.toggle("mobile-menu");
+    });
+  </script>
+</html>
