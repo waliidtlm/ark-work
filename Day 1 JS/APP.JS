@@ -21,7 +21,6 @@ if (userFavoriteAnimal.toLowerCase() === myFavoriteAnimal && userFavoriteColor.t
 }
 //Task 6: Comparison Operators
 const userInput = prompt('5:');
-const number = parseFloat(userInput);
 
 if (number > 0) {
   console.log('The number is positive.');
